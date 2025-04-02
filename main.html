@@ -1,16 +1,70 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Student Details</title>
+ <style>
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 20px;
+  }
+  table {
+      width: 60%;
+      margin: auto;
+      background-color: yellow; /* Table Background */
+      border-collapse: collapse; /* Ensures borders are single lines */
+  }
+  caption {
+      font-size: 1.5em;
+      margin: 10px;
+      font-weight: bold;
+  }
+  th, td {
+      border: 1px solid black; /* Border for th, td, tr */
+      padding: 8px;
+      text-align: center;
+  }
+  th {
+      background-color: #f0ad4e; /* A slightly darker shade for headers */
+  }
+ </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<table>
+ <caption>Student Details</caption> <!-- Table Caption -->
+ <thead>
+  <tr>
+   <th>NAME</th>
+   <th>AGE</th>
+   <th>BRANCH</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>John Doe</td>
+   <td>20</td>
+   <td>Computer Science</td>
+  </tr>
+  <tr>
+   <td>Jane Smith</td>
+   <td>22</td>
+   <td>Mathematics</td>
+  </tr>
+  <tr>
+   <td>Alex Brown</td>
+   <td>21</td>
+   <td>Physics</td>
+  </tr>
+  <tr>
+   <td>Emily Davis</td>
+   <td>23</td>
+   <td>Electrical Engineering</td>
+  </tr>
+ </tbody>
+</table>
 
 </body>
-
 </html>
